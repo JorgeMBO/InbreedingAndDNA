@@ -503,21 +503,6 @@ def Custom_Dog():
 
     dog_name = str(input("Insert new custom dog name here: "))
     NewDog = Dog(dog_name, dna)
+    
     return NewDog
-
-
-#Gale = Custom_Dog()
-Gale = Dog("Gale")
-Pepe = Dog("Pepe")
-Rover = Gale.breed(Pepe)
-ginger = Rover.breed(Pepe)
-jane = ginger.breed(Rover)
-print(Gale.dna)
-print(Gale.color_coat)
-print(Gale.color_eyes)
-print(Gale.coat_type)
-print(Gale.sex)
-
-print(ginger.dna)
-print(jane.dna)
 
