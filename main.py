@@ -315,7 +315,6 @@ class Dog:
 
     def mutate(self):
         """Introduce a mutation in the DNA sequence of the dog with a very low probability."""
-        """Introduce a mutation in the DNA sequence of the dog with a very low probability."""
         # Check if the mutate method has already been called
         if self.mutated == True:
             print("The dog has already mutated. The mutate method can only be called once.")
@@ -393,7 +392,7 @@ def Custom_Dog():
 
     # THIS IS FOR THE EYE COLOR DNA SPECIFICATION
 
-    print("CHOOSE BETWEEN THE OPTIONS AVAILABLE")
+    print("CHOOSE BETWEEN THE OPTIONS OF EYE COLOR AVAILABLE")
     print("1 - Blue")
     print("2 - Brown")
     print("3 - Green")
@@ -436,7 +435,7 @@ def Custom_Dog():
             eye_color = str(input("Write the number of the option you desire"))
     # THIS IS FOR coat type DNA SPECIFICATION
 
-    print("CHOOSE BETWEEN THE OPTIONS AVAILABLE")
+    print("CHOOSE BETWEEN THE OPTIONS OF COAT TYPES AVAILABLE")
     print("1 - Short")
     print("2 - Long")
     print("3 - Medium")
@@ -481,7 +480,7 @@ def Custom_Dog():
 
     # THIS IS FOR coat type DNA SPECIFICATION
 
-    print("CHOOSE BETWEEN THE OPTIONS AVAILABLE")
+    print("CHOOSE BETWEEN THE SEX OPTIONS AVAILABLE")
     print("1 - Male")
     print("2 - Female")
 
