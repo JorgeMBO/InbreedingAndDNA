@@ -1,5 +1,5 @@
 # InbreedingAndDNA
-This code is a simplification of DNA. It simulates breeding, mutations, and inbreeding thanks to a family tree. It connects DNA to specific attributes and its highly scalable.
+This code is a simplification of DNA. It simulates breeding, mutations, and inbreeding thanks to a family tree. It connects DNA to specific attributes and its highly scalable. Furthermore a Genetic Algorithm is applied. This is a WORK IN PROGRESS.
 
 # Dog Class
 
